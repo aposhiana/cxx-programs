@@ -7,7 +7,9 @@ This program launches a shell program which accepts normal commands that may be 
 * `^ k` runs the kth command. `k` must be a valid integer
 * `cd` changes the current directory as expected
 
-Piping between commands is supported including piping between built-in and non-built-in commands.
+Type `exit` to exit the shell program. Interrupt signals will be caught; therefore this is the preferred way to exit the program.
+
+Piping between commands is supported, including piping between built-in and non-built-in commands.
 
 *This program is only designed to run on Linux.*
 
